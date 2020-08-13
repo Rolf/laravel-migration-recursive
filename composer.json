@@ -1,0 +1,24 @@
+{
+    "name": "rolf/migration-recursive",
+    "description": "Run migration in path and subpath from database/migrations",
+    "require": {
+        "laravel/framework": "^5.5|^6|^7"
+    },
+    "keywords": [
+        "laravel",
+        "migration recursive"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rolf\\MigrationRecursive\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artyom",
+            "email": "bubogumy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
