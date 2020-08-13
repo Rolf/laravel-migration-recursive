@@ -2,13 +2,13 @@
 
 namespace Rolf\MigrationRecursive;
 
-use Illuminate\Foundation\Providers\ArtisanServiceProvider;
+use Illuminate\Database\MigrationServiceProvider;
 use Rolf\MigrationRecursive\Commands\MigrateCommand;
 use Rolf\MigrationRecursive\Commands\ResetCommand;
 use Rolf\MigrationRecursive\Commands\RollbackCommand;
 use Rolf\MigrationRecursive\Commands\StatusCommand;
 
-class MigrationRecursiveServiceProvider extends ArtisanServiceProvider
+class MigrationRecursiveServiceProvider extends MigrationServiceProvider
 {
     /**
      * Register the command.
