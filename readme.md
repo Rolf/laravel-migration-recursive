@@ -24,7 +24,7 @@ Laravel 7.x
 ````
 'providers' => [
         ...
-        \Rolf\MigrationRecursive\src\MigrationRecursiveServiceProvider::class,
+        \Rolf\MigrationRecursive\MigrationRecursiveServiceProvider::class,
 ]
 ````
 
